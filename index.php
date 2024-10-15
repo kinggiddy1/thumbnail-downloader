@@ -3,7 +3,7 @@ require('header.php');
 require('perlConfig.php');
 require_once 'vendor/autoload.php'; 
 
-$DEVELOPER_KEY = 'AIzaSyDuG2ka9DkZuEmaWT4f1lpugfZddJ4g5po'; 
+$DEVELOPER_KEY = 'Add your key here'; 
 $client = new Google_Client();
 $client->setDeveloperKey($DEVELOPER_KEY);
 $youtube = new Google_Service_YouTube($client);
